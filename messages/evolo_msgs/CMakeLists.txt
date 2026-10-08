@@ -20,6 +20,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Links.msg"
   "msg/CaptainState.msg"
   "msg/ProxOpsBackendStatus.msg"
+  "msg/BearingObservation.msg"
+  "msg/TargetStateStamped.msg"
   DEPENDENCIES geometry_msgs sensor_msgs std_msgs
  )
 
